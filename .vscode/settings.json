@@ -1,0 +1,16 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/dalal/soc_catkin_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages",
+        "opt/ros/noetic/lib/python3/dist-packages",
+        "opt/ros/noetic/share",
+        "/home/dalal/ros1_ws/src/"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/dalal/soc_catkin_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages",
+        "opt/ros/noetic/lib/python3/dist-packages",
+        "opt/ros/noetic/share",
+        "/home/dalal/ros1_ws/src/"
+    ]
+}
