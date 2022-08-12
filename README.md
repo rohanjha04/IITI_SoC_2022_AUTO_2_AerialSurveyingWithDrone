@@ -1,24 +1,41 @@
 # Aerial Surveying in IIT Indore
+Welcome to the drone simulation by IITI
+(Project made under IITI SoC 2022)
+Contributors:
+Jha Rohan
+Abhishek Nair
+Ebrahim Rampurawala
+Niranjana Nair
+Mentors:
+Bhavya Dalal
+Raghuvamsi Bokka
 
-Mentors: [Bhavya Dalal](https://github.com/dalalbhavya), [Raghuvamsi Bokka](https://github.com/RaghuvamsiBokka)
+The repository can be used for a complete drone simulation for aerial simulation. It contains the model of a drone with down facing camera in a gazebo world (a lake).
 
-**Description:** IIT Indore has a considerable land area under
-thick forest cover. In the blazing hot summers of Indore (as
-we all have experienced), there are chances of bushes
-catching fire and escalating to a forest fire. To prevent
-it, an aerial surveying drone equipped with infrared cameras
-and other sensors can be used to predict the areas which are
-potential hotspots.
+To run this repositiory please clone the repository to your local machine:
+LINK
 
-**Specifications:**
-- Recognize abnormally high-temperature spots of the
-forest cover to detect and signal the ground station
-immediately.
-- Identify high-risk areas that generally have higher
-temperatures than average.
-- Bonus Points for generalising the approach for
-detecting animals (such as wild boar herds and
-leopards) on our campus.
+Dependencies:
+i. This is made for ROS Noetic and Ubuntu 20.04.
+ii. ArduCopter 4.0.4
+iii. MAVROS and MAVLink
+iv. Gazebo 11
+v. Python3
 
-For package creation instructions see [here](/docs/INSTRUCTIONS.md)
+To run the simulation please run the following commands in the terminal with all the dependencies satisfied:
+(Run these codes in your catkin workspace)
+i. catkin build
+ii. source devel/setup.bash
+iii. roslaunch iq_sim lake_travis.launch
+In new terminal
+iv. cd iq_sim/scripts/
+v. ./startsitl.sh
+In new terminal
+vi. source devel/setup.bash
+vii. roslaunch iq_sim apm.launch
+In new terminal
+viii. rosrun iq_gnc square.py
+In new terminal 
+ix. rqt_image_view
 
+To run the colab files, upload the pictures being send by the drone on google colab or use the loacl machines for image processing.
