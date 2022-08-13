@@ -41,3 +41,4 @@ ix. rqt_image_view</br>
 Set mode GUIDED in the mavlink terminal to start the simulation</br>
 
 To run the colab files, upload the pictures being send by the drone on google colab or use the loacl machines for image processing.</br>
+Link to view a simulation: https://drive.google.com/drive/folders/1X5MsPP1fwMIs43cv_ZnfPmSOb4EU5XYY?usp=sharing
